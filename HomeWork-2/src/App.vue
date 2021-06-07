@@ -19,10 +19,10 @@
         <h4>Container components and Presentational Components</h4>
       </div>
       <div>
-        <Products />
+        <Products :list-of-product="listOfProduct"/>
       </div>
       <div>
-        <Articles />
+        <Articles :list-of-articles="listOfArticles"/>
       </div>
     </main>
     <footer>
@@ -33,6 +33,8 @@
 <script>
 import Products from "./components/products.vue";
 import Articles from "./components/articles.vue";
+import { get as getProducts } from "./product.js";
+import { get as getArticles } from "./article.js";
 
 export default {
   name: "App",
@@ -41,9 +43,19 @@ export default {
     Articles,
   },
   data() {
-    return {};
+    return {
+      listOfProduct: [],
+      listOfArticles: [],
+    };
   },
-  created() {},
+  created() {
+    getProducts({}, 10, 1).then((res) => {
+      this.listOfProduct = res?.data;
+    })
+    getArticles({}, 10, 1).then((res) => {
+      this.listOfArticles = res?.data;
+    })
+  },
 };
 </script>
 

@@ -15,18 +15,20 @@
   </div>
 </template>
 <script>
-import { get as getArticles } from "../article.js";
+
 export default {
   name: "Articles",
   data() {
     return {
-      listOfArticles: [],
     };
   },
+  props: {
+    listOfArticles: {
+      type: Array,
+      default: null
+    }
+  },
   created() {
-    getArticles({}, 10, 1).then((res) => {
-      this.listOfArticles = res?.data;
-    });
   },
 };
 </script>

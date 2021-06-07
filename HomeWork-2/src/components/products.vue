@@ -20,18 +20,19 @@
   </div>
 </template>
 <script>
-import { get as getProducts } from "../product.js";
+
 export default {
   name: "Products",
   data() {
     return {
-      listOfProduct: [],
     };
   },
-  created() {
-    getProducts({}, 10, 1).then((res) => {
-      this.listOfProduct = res?.data;
-    });
+  props: {
+    listOfProduct: {
+      type: Array,
+      default: null
+    }
   },
+  created() {},
 };
 </script>
