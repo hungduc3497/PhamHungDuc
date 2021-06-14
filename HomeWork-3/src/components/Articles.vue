@@ -6,6 +6,9 @@
     <template #cell(img)="data">
       <img :src="data.item.img">
     </template>
+    <template #cell(categories)="data">
+      <div v-html="$getDataFromArrayToList(data.item.categories)" />
+    </template>
   </b-table>
   </div>
 </template>
