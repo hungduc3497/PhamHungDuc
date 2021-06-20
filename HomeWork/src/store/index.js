@@ -1,13 +1,15 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import counter from './modules/counter'
+import Articles from './modules/Articles'
+import Products from './modules/Products'
 
 Vue.use(Vuex)
 Vue.config.devtools = true
 
 export default new Vuex.Store({
   modules: {
-    counter: counter
+    Articles: Articles,
+    Products: Products
   },
   state: {},
   getters: {},

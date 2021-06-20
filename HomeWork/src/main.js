@@ -7,12 +7,13 @@ import store from '@/store'
 import Vuex from 'vuex'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import toBold from './plugins/to-bold'
-
+import getDataFromArrayToList from './plugins/getDataFromArrayToList'
 // Install BootstrapVue
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
 Vue.use(toBold)
+Vue.use(getDataFromArrayToList)
 Vue.use(Vuex)
 Vue.config.productionTip = false
 Vue.config.devtools = true

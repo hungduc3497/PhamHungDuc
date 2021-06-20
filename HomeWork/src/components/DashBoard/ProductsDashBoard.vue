@@ -2,7 +2,7 @@
   <div class="container">
     <h2>Products</h2>
     <div class="d-flex flex-wrap">
-      <div v-for="(item, index) in listOfProduct" :key="index" class="pr-4 pb-3">
+      <div v-for="(item, index) in listOfProducts" :key="index" class="pr-4 pb-3">
         <div class="card" style="width: 320px">
           <img
             class="card-img-top"
@@ -28,7 +28,7 @@ export default {
     }
   },
   props: {
-    listOfProduct: {
+    listOfProducts: {
       type: Array,
       default: null
     }

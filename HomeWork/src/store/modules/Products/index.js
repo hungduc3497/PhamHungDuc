@@ -3,7 +3,7 @@ import mutations from './mutations'
 import getters from './getters'
 
 const state = {
-  count: 0
+  listOfProducts: []
 }
 
 export default {
