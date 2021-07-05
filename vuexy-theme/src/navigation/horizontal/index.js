@@ -25,8 +25,7 @@ route: [route_obj/route_name] (I have to resolve name somehow from the route obj
 */
 import hoSo from '../../modules/ho-so/navigation/horizontal/ho-so'
 import trangChu from '../../modules/trang-chu/navigation/horizontal/trang-chu'
-import productList from '../../modules/product-list/navigation/vertical/product-list'
-import detailPage from '../../modules/trang-chi-tiet/navigation/vertical/detail-page'
+import productList from '../../modules/product-list/navigation/horizontal/product-list'
 
 // Array of sections
-export default [...trangChu, ...hoSo, ...productList, ...detailPage]
+export default [...trangChu, ...hoSo, ...productList]

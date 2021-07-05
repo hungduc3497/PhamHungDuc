@@ -316,6 +316,18 @@
   </div>
 </template>
 
+<script>
+import store from '@/store'
+
+export default {
+  beforeCreate() {
+    store.commit('appConfig/UPDATE_NAVBAR_CONFIG', { type: 'hidden' })
+    store.commit('appConfig/UPDATE_FOOTER_CONFIG', { type: 'hidden' })
+    store.commit('appConfig/UPDATE_NAV_MENU_HIDDEN', { type: 'hidden' })
+  },
+}
+</script>
+
 <style scoped>
 @import "../../assets/styles/index.scss";
 </style>

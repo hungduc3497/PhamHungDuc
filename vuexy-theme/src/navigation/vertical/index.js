@@ -33,7 +33,6 @@ tagVariant
 import hoSo from '../../modules/ho-so/navigation/vertical/ho-so'
 import trangChu from '../../modules/trang-chu/navigation/vertical/trang-chu'
 import productList from '../../modules/product-list/navigation/vertical/product-list'
-import detailPage from '../../modules/trang-chi-tiet/navigation/vertical/detail-page'
 
 // Array of sections
-export default [...trangChu, ...hoSo, ...productList, ...detailPage]
+export default [...trangChu, ...hoSo, ...productList]
