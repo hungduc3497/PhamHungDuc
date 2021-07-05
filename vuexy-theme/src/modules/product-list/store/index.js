@@ -3,7 +3,7 @@ import mutations from './mutations'
 import getters from './getters'
 
 const state = {
-  listOfProducts: []
+  listOfProducts: [],
 }
 
 export default {
@@ -11,5 +11,5 @@ export default {
   state,
   actions,
   getters,
-  mutations
+  mutations,
 }
