@@ -71,4 +71,28 @@
 }
 .text-tin-bai {
 	font-size: 14px;
+	padding-right: 200px;
+}
+.box-number {
+	display: flex;
+	align-self: center;
+	background: #DB353A;
+	color: white;
+	padding: 5px 10px;
+	margin-right: 10px;
+}
+.box-content {
+	display: flex;
+	align-items: center;
+	color: rgba(219.0000021457672, 53.00000064074993, 58.00000034272671, 1);
+	border: 1px solid #DB353A;
+	padding: 15px;
+	font-size: 18px;
+}
+.footer-detail-page {
+	margin-top: 100px;
+	background: #DB353A;
+	color: white;
+	text-align: center;
+	padding: 26px;
 }

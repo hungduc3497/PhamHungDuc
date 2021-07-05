@@ -29,8 +29,8 @@
         <span class="pl-2">Chỉnh cỡ chữ: A a</span>
       </div>
     </div>
-    <div class="d-flex">
-      <div class="mt-1">
+    <div class="row">
+      <div class="col-8 mt-1">
         <h2 class="text-content-red">
           Bộ trưởng Nguyễn Chí Dũng làm việc với Ban Lãnh đạo mới của Diễn đàn
           doanh nghiệp Việt Nam
@@ -172,12 +172,146 @@
           </div>
         </div>
       </div>
-      <div class="mt-1">
-        <h2 class="text-content-red">
-          Thông báo
-        </h2>
-        <hr>
+      <div class="col-4 mt-1">
+        <div>
+          <h2 class="text-content-red">Thông báo</h2>
+          <hr />
+          <div>
+            <p style="font-size: 12px">23/04/2021-09:39:00 AM</p>
+            <div class="d-flex">
+              <div class="box-number">1</div>
+              <div>
+                <span
+                  >Đôn đốc báo cáo kế hoạch đầu tư công trung hạn giai đoạn
+                  2021-2025</span
+                >
+              </div>
+            </div>
+            <hr />
+          </div>
+          <div>
+            <p style="font-size: 12px">23/04/2021-09:39:00 AM</p>
+            <div class="d-flex">
+              <div class="box-number">2</div>
+              <div>
+                <span
+                  >Báo cáo khó khăn, vướng mắc trong việc giao và giải ngân kế
+                  hoạch đầu tư vốn NSNN năm 2021</span
+                >
+              </div>
+            </div>
+            <hr />
+          </div>
+          <div>
+            <p style="font-size: 12px">23/04/2021-09:39:00 AM</p>
+            <div class="d-flex">
+              <div class="box-number">3</div>
+              <div>
+                <span
+                  >Tài liệu cuộc họp của Tổ công tác xây dựng Đề án và Tổ thư ký
+                  biên tập Đề án Xây dựng hệ thống kết cấu hạ tầng</span
+                >
+              </div>
+            </div>
+            <hr />
+          </div>
+          <div>
+            <p style="font-size: 12px">23/04/2021-09:39:00 AM</p>
+            <div class="d-flex">
+              <div class="box-number">4</div>
+              <div>
+                <span
+                  >Tình hình thực hiện Nghị quyết 01/NQ-CP và tình hình KTXH
+                  tháng 4 và 4 tháng đầu năm 2021</span
+                >
+              </div>
+            </div>
+            <hr />
+          </div>
+          <div>
+            <p style="font-size: 12px">23/04/2021-09:39:00 AM</p>
+            <div class="d-flex">
+              <div class="box-number">5</div>
+              <div>
+                <span
+                  >Dự thảo Chỉ thị của Thủ tướng Chính phủ về xây dựng kế hoạch
+                  phát triển kinh tế - xã hội, dự toán ngân sách ...</span
+                >
+              </div>
+            </div>
+            <hr />
+          </div>
+        </div>
+        <div>
+          <div class="d-flex flex-column">
+            <span class="text-content-red ml-auto">Xem tất cả <img src="../../assets/images/trending_flat.png" alt=""></span>
+            <img src="../../assets/images/chart.png" alt="">
+          </div>
+          <div class="pb-2">
+            <div class="box-content">
+              <img src="../../assets/images/replay.png" alt="">
+              <p class="pl-2 pt-1"><b>CHUYỂN ĐỔI SỐ</b></p>
+            </div>
+          </div>
+          <div class="pb-2">
+            <div class="box-content">
+              <img src="../../assets/images/camera.png" alt="">
+              <p class="pl-2 pt-1"><b>HỌP BÁO BỘ KẾ HOẠCH VÀ ĐẦU TƯ</b></p>
+            </div>
+          </div>
+          <div class="pb-2">
+            <div class="box-content">
+              <img src="../../assets/images/event_available.png" alt="">
+              <p class="pl-2 pt-1"><b>LỊCH CÔNG TÁC</b></p>
+            </div>
+          </div>
+          <div class="pb-2">
+            <div class="box-content">
+              <img src="../../assets/images/router.png" alt="">
+              <p class="pl-2 pt-1"><b>TIẾP CẬN THÔNG TIN</b></p>
+            </div>
+          </div>
+          <div class="pb-2">
+            <div class="box-content">
+              <img src="../../assets/images/work_outline.png" alt="">
+              <p class="pl-2 pt-1"><b>THỦ TỤC HÀNH CHÍNH</b></p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2 class="text-content-red">Chuyên mục</h2>
+          <hr />
+          <p><span><img src="../../assets/images/spa.png" class="pr-1" alt="">Kinh tế tập thể - Hợp tác xã</span></p>
+          <p><span><img src="../../assets/images/local_library.png" class="pr-1" alt="">Nghiên cứu - Trao đổi</span></p>
+          <p><span><img src="../../assets/images/co_che.png" class="pr-1" alt="">Cơ chế chính sách</span></p>
+          <p><span><img src="../../assets/images/restaurant.png" class="pr-1" alt="">Phòng chống tham nhũng</span></p>
+          <p><span><img src="../../assets/images/collections.png" class="pr-1" alt="">Thư viện hình ảnh</span></p>
+          <p><span><img src="../../assets/images/business.png" class="pr-1" alt="">Các dự án của Bộ</span></p>
+        </div>
+        <div>
+          <h2 class="text-content-red">Liên hệ</h2>
+          <hr />
+          <div class="pb-2">
+            <div class="box-content">
+              <img src="../../assets/images/path_lh.png" alt="">
+              <p class="pl-2 pt-1"><b>ĐƯỜNG DÂY NÓNG</b></p>
+            </div>
+          </div>
+          <div>
+            <div class="box-content">
+              <img src="../../assets/images/contact_phone_lh.png" alt="">
+              <p class="pl-2 pt-1"><b>DANH BẠ ĐIỆN THOẠI</b></p>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+    <div class="footer-detail-page">
+      <p>CỔNG THÔNG TIN ĐIỆN TỬ BỘ KẾ HOẠCH VÀ ĐẦU TƯ</p>
+      <p>Bản quyền thuộc về Bộ Kế hoạch và Đầu tư</p>
+      <p>Địa chỉ: 6B Hoàng Diệu, Ba Đình, Hà Nội - ĐT: 080.43485; Phòng Hành chính - Văn phòng Bộ: 024.38455298; Fax: 024.38234453.</p>
+      <p>Trưởng Ban Biên tập: Nguyễn Như Sơn – Giám đốc Trung tâm Tin học; Email: banbientap@mpi.gov.vn</p>
+      <p>Ghi rõ nguồn Cổng thông tin điện tử Bộ Kế hoạch và Đầu tư (www.mpi.gov.vn) khi trích dẫn lại tin từ địa chỉ này.</p>
     </div>
   </div>
 </template>
