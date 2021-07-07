@@ -1,7 +1,7 @@
 export default [
   {
     title: 'Product page',
-    icon: 'FileTextIcon',
+    icon: 'ClipboardIcon',
     route: 'product-list',
   },
 ]

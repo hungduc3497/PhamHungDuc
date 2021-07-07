@@ -1,7 +1,7 @@
 export default [
   {
     title: 'Trang chi tiết',
-    icon: 'FileTextIcon',
+    icon: 'CompassIcon',
     route: 'detail-page',
   },
 ]
